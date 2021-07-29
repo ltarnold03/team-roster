@@ -1,7 +1,9 @@
+ // Fail test successful
 const Engineer = require('../lib/Engineer.js');
 
-// test('creates a new Engineer object' , () => {
-//     const engineer = new Engineer('Dave');
+test('checks if Engineer infomation is returned', () => {
+    const engineer = new Engineer();
 
-//     expect(engineer.name).toBe('Dave');
-// })
+    expect(engineer.github).toEqual(expect.any(String));
+    expect(engineer.github.length).toBeGreaterThan(0);
+ });
