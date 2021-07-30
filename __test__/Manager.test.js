@@ -1,7 +1,7 @@
 // Fail test successful
 const Manager = require('../lib/Manager.js');
 
-    test('checks if the Manager information is returned', () => {
+    test('checks if the Manager office number is returned', () => {
         const manager = new Manager('Bambi Deer', '012', 'bambi@email.com', '1234');
 
         expect(manager.officeNumber).toEqual(expect.stringContaining('1234'));
