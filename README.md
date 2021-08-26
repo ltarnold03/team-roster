@@ -4,11 +4,11 @@
 
 - [Description](#description)
 - [Badges](#badges)
-- [Visuals](#visuals)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Test](#test)
+- [Visuals](#visuals)
 
 <br />
 
@@ -19,10 +19,6 @@ Team is a Node.js command-line applicaiton. It accepts information about employe
 
 ## Badges
 ![NPM](https://img.shields.io/npm/l/inquirer?style=plastic)
-<br />
-
-## Visuals
-
 <br />
 
 ## Installation
@@ -76,5 +72,8 @@ npm run test
 
 <br />
 
-License
-For open source projects, say how it is licensed.
+
+## Visuals
+
+
+
